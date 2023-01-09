@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+fieldset {
+    border: none;
+    margin: auto;
+}
+
+p {
+    padding: 0.7rem;
+}
+
+label {
+    display: block;
+}
+
+input, textarea, select {
+    padding: 0.5rem;
+    font-family: Poppins, sans-serif;
+    resize: none;
+    background-color: rgb(194, 214, 188);
+    border: 0;
+    border-radius: 3px;
+    width: 80%;
+}
+
+button {
+    display: block;
+}
+
+@media screen and (min-width:600px) {
+    fieldset {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

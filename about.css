@@ -1,0 +1,53 @@
+img {
+    margin: 15px 0;
+    max-width: 100%;
+    height: auto;
+}
+.firstp {
+    color: green;
+}
+.secondp, .goals p {
+    min-width: 40%;
+    margin: 10px 0;
+}
+
+.head {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.goals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (min-width:600px) {
+    .head {
+        text-align: unset;
+    }
+    img {
+        float: right;
+    }
+    .head {
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .goals img {
+        margin-left: 7px;
+        min-width: 50%;
+    }
+}
+
+@media screen and (min-width:700px)  {
+    img {
+        max-width: 50%;
+    }
+    .goalimg {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+}

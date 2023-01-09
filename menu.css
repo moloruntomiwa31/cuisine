@@ -1,0 +1,39 @@
+.menu1 {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.menu1 h2 {
+    margin-bottom: 10px;
+}
+.menu1-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.menu1-wrapper div {
+    background-color: rgb(194, 214, 188);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.menu1-wrapper img {
+    border-radius: 5px;
+    max-width: 70%;
+    height: auto;
+    float: right;
+}
+.menu1-wrapper div p {
+    display: block;
+}
+
+@media screen and (min-width:768px) {
+    .menu1-wrapper div {
+        flex-direction: row;
+    }
+    .menu1-wrapper img {
+        float: none;
+        max-width: 50%;
+    }
+}
