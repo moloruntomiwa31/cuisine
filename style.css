@@ -249,12 +249,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-/* .customersays {
-    margin: auto;
-} */
-/* .customerimg {
-    flex: 2;
-} */
 .customerimg img {
     width: auto;
     height: 230px;
@@ -291,10 +285,6 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
-
-/* .events button {
-    max-width: 100%;
-} */
 
 /* newsletter */
 .newsletter {

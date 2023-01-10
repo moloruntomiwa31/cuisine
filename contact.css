@@ -28,9 +28,6 @@ input, textarea, select {
     width: 80%;
 }
 
-button {
-    display: block;
-}
 
 @media screen and (min-width:600px) {
     fieldset {
