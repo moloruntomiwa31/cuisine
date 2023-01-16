@@ -114,10 +114,10 @@ body {
 
 .working {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    flex-direction: column;
 }
 .working h4 {
     font-family: Poppins;
