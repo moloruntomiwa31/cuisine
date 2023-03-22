@@ -103,7 +103,7 @@ body {
 .wrap-img {
     min-width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 .img-fluid {
    width: 70%;
