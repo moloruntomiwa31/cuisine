@@ -106,13 +106,17 @@ body {
     justify-content: center;
 }
 .img-fluid {
-   width: 100%;
+   width: 70%;
    height: auto;
 }
 
 @media screen and (max-width: 768px){
     .herotxt {
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+    .img-fluid {
+        width: 100%;
+        height: auto;
     }
 }
 
