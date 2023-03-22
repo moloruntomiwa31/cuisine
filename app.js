@@ -2,7 +2,7 @@ const getElement = (selector) => {
     const element = document.querySelector(selector)
     if (element) return element
     throw Error (
-        'Check for $(selector)'
+        `Check for ${selector}`
     )  
 }
 

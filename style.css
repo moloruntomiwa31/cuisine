@@ -92,13 +92,29 @@ body {
 /* nav  */
 
 .herotxt {
-    display: inline-block;
+    display: flex;
+}
+.wrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+.wrap-img {
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.img-fluid {
+   width: 100%;
+   height: auto;
 }
 
-.herotxt img {
-    max-width: 100%;
+@media screen and (max-width: 768px){
+    .herotxt {
+        flex-direction: column-reverse;
+    }
 }
-
 
 .herotxt p {
     padding: 13px 0;
